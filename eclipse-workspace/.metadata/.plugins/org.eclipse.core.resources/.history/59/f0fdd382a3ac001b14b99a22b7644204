@@ -1,0 +1,15 @@
+package task2;
+
+public class Test {
+	public static void main(String[] args) {
+		
+	
+	
+	Test t  = new Test();
+	t.m1(12,4.4f);
+	t.m1(5.2f,4);
+	
+
+}
+}
+

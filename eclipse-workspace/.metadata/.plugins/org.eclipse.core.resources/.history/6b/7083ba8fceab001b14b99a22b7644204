@@ -1,0 +1,10 @@
+package example1;
+
+public class B {
+
+	public B()
+	{
+		this(2,3);
+		System.out.println("constructor--B--default");
+	}
+}

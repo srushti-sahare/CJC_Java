@@ -1,0 +1,15 @@
+package task5;
+
+public class Test {
+	
+	public Employee setDev()
+	{
+		Developer d = new Developer();
+		d.setNosprint(13025);
+		
+		
+		return d;
+		
+	}
+
+}

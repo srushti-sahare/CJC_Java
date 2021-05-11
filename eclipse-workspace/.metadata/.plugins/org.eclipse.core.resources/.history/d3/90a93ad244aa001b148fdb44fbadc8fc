@@ -1,0 +1,21 @@
+package example3;
+
+public class B extends A {
+	
+	public B()
+	{
+		System.out.println("constructor----B---Default");
+	}
+	
+	public B(int i)
+	{
+		super(20);
+		System.out.println("constructor----B---Int");
+	}
+	
+	public B(String s)
+	{
+		System.out.println("constructor----B---String");
+	}
+
+}

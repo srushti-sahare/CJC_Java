@@ -1,0 +1,14 @@
+package task2;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		Calculator c = new Calculator();
+		int w=c.add();
+		int x=c.sub();
+		int y=c.mul();
+		int z=c.div();
+	}
+
+}

@@ -1,0 +1,13 @@
+package task5;
+
+public class Test {
+	
+	public Employee setDev()
+	{
+		Developer d = new Developer();
+		
+		return d;
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package task1;
+
+public class Student {
+	
+	int x=100;
+	static int y=900;
+	
+	static
+	{
+		System.out.println("static block");
+	}
+}

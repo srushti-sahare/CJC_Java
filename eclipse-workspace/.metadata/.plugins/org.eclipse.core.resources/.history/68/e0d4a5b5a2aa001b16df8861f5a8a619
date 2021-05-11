@@ -1,0 +1,17 @@
+package task5;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		Student s = new Student();
+		s.setRollno(1);
+		
+		Student s1 = new Student();
+		s1.setName("xyz");
+		
+		System.out.println(s.getRollno());
+		System.out.println(s1.getName());
+	}
+
+}

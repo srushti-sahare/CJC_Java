@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;OopsInheritance&apos;&#x0D;&#x0A;- Original project: &apos;OopsInheritance&apos;&#x0D;&#x0A;- Original element: &apos;OopsInheritance/src/cjc.srushti&apos;" description="Delete element" element1="/src&lt;cjc.srushti" element2="/src&lt;cjc" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1619589727159" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+package task2;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		Calculator c = new Calculator();
+		int w=c.add();
+		System.out.println("Addition is   " +c);
+		int x=c.sub();
+		System.out.println("Subtraction is   " +c);
+		int y=c.mul();
+		System.out.println("Multiplication is   " +c);
+		int z=c.div();
+		System.out.println("Division is   " +c);
+	}
+
+}

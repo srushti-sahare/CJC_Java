@@ -1,0 +1,81 @@
+package com.cjc.task3;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		
+		A a = new A();
+		a.m1();
+		a.m2();
+		System.out.println(a.a);
+		System.out.println(a.b);
+		
+		
+		B b = new B();
+		b.m1();
+		b.m2();
+		b.m3();
+		b.m4();
+		System.out.println(b.a);
+		System.out.println(b.b);
+		
+		
+		C c = new C();
+		c.m1();
+		c.m2();
+		c.m3();
+		c.m4();
+		c.m6();
+		c.m7();
+		System.out.println(c.a);
+		System.out.println(c.b);
+		System.out.println(c.x);
+		System.out.println(c.y);
+		
+		
+		
+		
+		D d = new D();
+		d.m1();
+		d.m2();
+		d.m3();
+		d.m4();
+		d.m6();
+		d.m7();
+		System.out.println(d.a);
+		System.out.println(d.b);
+		System.out.println(d.c);
+		System.out.println(d.x);
+		System.out.println(d.y);
+		
+		
+		
+		E e = new E();
+		e.m1();
+		e.m2();
+		e.m3();
+		e.m4();
+		System.out.println(e.a);
+		System.out.println(e.b);
+		System.out.println(e.d);
+		System.out.println(e.e);
+
+		
+		
+		F f = new F();
+		A a1 = new B();
+		A a2 = new C();
+		A a3 = new D();
+		A a4 = new E();
+		A a5 = new F();
+		B b1 = new C();
+		B b2 = new D();
+		B b3 = new E();
+		B b4 = new F();
+		C c1 = new D();
+		E e1 = new F();
+		
+	}
+
+}

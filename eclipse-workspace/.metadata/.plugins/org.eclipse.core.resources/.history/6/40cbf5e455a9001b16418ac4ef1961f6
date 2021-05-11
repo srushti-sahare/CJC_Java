@@ -1,0 +1,39 @@
+package task2;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		A a = new A();
+		a.m1();
+		a.m2();
+		System.out.println(a.a);
+		System.out.println(a.b);
+		
+		
+		B b = new B();
+		b.m1();
+		b.m2();
+		System.out.println(b.a);
+		System.out.println(b.b);
+		
+		
+		C c = new C();
+		c.m1();
+		c.m2();
+		c.m3();
+		System.out.println(c.c);
+		E e = new E();
+		A a1 = new B();
+		A a2 = new C();
+		A a3 = new E();
+		B b1 = new C();
+		B b2 = new E();
+		C c1 = new E();
+		
+		
+		
+		
+	}
+
+}
